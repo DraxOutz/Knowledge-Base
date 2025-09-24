@@ -48,10 +48,9 @@ Exemplo: RSA, ECC
 FA2 = Fator de Autenticação Duplo (do inglês: Two-Factor Authentication).
 É uma camada extra de segurança no login.
 Além da senha, você precisa de outro fator de autenticação, como:
-Código via SMS/Email 📩
-App autenticador (Google Authenticator, Authy) 📱
-Token físico (YubiKey) 🔑
-
-Biometria (digital, rosto) 👆
+- Código via SMS/Email 📩
+- App autenticador (Google Authenticator, Authy) 📱
+- Token físico (YubiKey) 🔑
+- Biometria (digital, rosto) 👆
 
 👉 A ideia é: mesmo que descubram sua senha, ainda precisam do segundo fator.
