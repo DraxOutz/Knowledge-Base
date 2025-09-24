@@ -14,7 +14,7 @@ Cibersegurança (ou Cybersecurity) é a área da tecnologia responsável por pro
 - Monitoramento de redes 🌐
 - Backups e planos de recuperação 📂
 
-#🔹 Engenharia Social
+# 🔹 Engenharia Social
 
 Engenharia Social é uma tática de ataque em que alguém manipula pessoas, e não sistemas, para conseguir informações confidenciais ou acesso a sistemas.
 Ou seja, o atacante explora a confiança humana em vez de quebrar uma senha ou firewall.
