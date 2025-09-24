@@ -64,16 +64,25 @@ Um atacante pode **alterar a consulta**, acessar ou manipular dados que não dev
 
 ## 📌 Exemplo vulnerável
 
-## Campo sem proteção
+### Campo sem proteção
 
 SELECT * FROM users 
 WHERE username = 'usuario_digitado' 
 AND password = 'senha_digitada';
 
-## SQL Injector
+### SQL Injector
 
 SELECT * FROM users 
 WHERE username = '' OR '1'='1' 
 AND password = '';
 
 **'1'='1' sempre é verdadeiro, então o atacante consegue logar sem saber a senha.**
+
+# 🦾 Proteção
+
+## Senhas e autenticação
+
+- Hash + Salting: use bcrypt ou argon2 para armazenar senhas com hash seguro. (obrigatório)
+- 2FA / MFA: adicionar autenticação de segundo fator (app, SMS, biometria). (não é obrigatório, porém recomendado)
+- Complexidade de senha: exigir mínimo de caracteres, números, símbolos e letras maiúsculas/minúsculas. (obrigatório)
+- Bloqueio de tentativas: limitar logins errados e usar captcha para evitar brute force. (obrigatório)
