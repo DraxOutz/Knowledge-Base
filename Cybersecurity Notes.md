@@ -8,8 +8,8 @@ Cibersegurança (ou Cybersecurity) é a área da tecnologia responsável por pro
 
 # 🛡️ Exemplos práticos de cibersegurança:
 
-*Antivírus e firewalls 🔥
-*Autenticação multifator (MFA) 🔑
-*Criptografia de dados 🔒
-*Monitoramento de redes 🌐
-*Backups e planos de recuperação 📂
+- Antivírus e firewalls 🔥
+- Autenticação multifator (MFA) 🔑
+- Criptografia de dados 🔒
+- Monitoramento de redes 🌐
+- Backups e planos de recuperação 📂
