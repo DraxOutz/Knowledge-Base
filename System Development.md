@@ -11,3 +11,10 @@ Inclui desde planejamento até manutenção, passando por análise, design, impl
 - Testes – verificar se tudo funciona corretamente e corrigir erros (debugging).
 - Implantação – colocar o sistema em produção para uso real.
 - Manutenção – corrigir bugs, atualizar e melhorar o sistema ao longo do tempo.
+
+# 📌 Exemplos de sistemas
+
+- Websites e apps
+- Sistemas de gestão (financeiro, escolar, hospitalar)
+- Jogos
+- Softwares de automação e scripts
