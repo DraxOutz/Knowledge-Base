@@ -14,6 +14,25 @@ Cibersegurança (ou Cybersecurity) é a área da tecnologia responsável por pro
 - Monitoramento de redes 🌐
 - Backups e planos de recuperação 📂
 
+#🔹 Engenharia Social
+
+Engenharia Social é uma tática de ataque em que alguém manipula pessoas, e não sistemas, para conseguir informações confidenciais ou acesso a sistemas.
+Ou seja, o atacante explora a confiança humana em vez de quebrar uma senha ou firewall.
+
+## 📌 Exemplos comuns
+
+- Phishing: e-mails ou mensagens falsos pedindo senha ou dados.
+- Vishing: ligações telefônicas fingindo ser alguém confiável.
+- Pretexting: criar uma história ou situação para enganar alguém e obter acesso.
+- Tailgating / Piggybacking: seguir alguém em áreas restritas sem autorização.
+
+## 🛡️ Como se proteger
+
+- Nunca compartilhe senhas ou códigos por e-mail/telefone.
+- Verifique sempre a identidade de quem solicita informações.
+- Desconfie de links ou anexos de fontes desconhecidas.
+- Treinamento de conscientização: empresas geralmente fazem isso com funcionários.
+
 # 🖥️ Proteção de sistemas
 
 # 🔒 Criptografia
