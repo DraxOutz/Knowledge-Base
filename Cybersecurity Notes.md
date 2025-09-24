@@ -75,3 +75,5 @@ AND password = 'senha_digitada';
 SELECT * FROM users 
 WHERE username = '' OR '1'='1' 
 AND password = '';
+
+**'1'='1' sempre é verdadeiro, então o atacante consegue logar sem saber a senha.**
