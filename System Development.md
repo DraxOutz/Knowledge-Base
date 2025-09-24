@@ -22,4 +22,4 @@ Inclui desde planejamento até manutenção, passando por análise, design, impl
 # 📚 Programação 
 
 ## Segurança em programação
-> Validação de entradas: nunca confiar nos dados que vêm do usuário.
+Validação de entradas: nunca confiar nos dados que vêm do usuário, pois podem ser manipulados ou forjados.
