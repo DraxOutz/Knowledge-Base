@@ -85,7 +85,7 @@ AND password = '';
 - Hash + Salting: use bcrypt ou argon2 para armazenar senhas com hash seguro. (obrigatório)
 - 2FA / MFA: adicionar autenticação de segundo fator (app, SMS, biometria). (não é obrigatório, porém recomendado)
 - Complexidade de senha: exigir mínimo de caracteres, números, símbolos e letras maiúsculas/minúsculas. (obrigatório)
-- Bloqueio de tentativas: limitar logins errados e usar captcha para evitar brute force. (obrigatório)
+- Bloqueio de tentativas + captcha: limitar logins errados e usar captcha para evitar brute force. (obrigatório)
 
 ## Educação e boas práticas
 
@@ -93,3 +93,5 @@ AND password = '';
 - Incentivar senhas únicas e atualização periódica.
 - Logs de atividade: monitorar acessos e ações críticas.
 - Princípio do mínimo privilégio: cada usuário só acessa o que precisa.
+- Backup: Backup regular dos dados importantes.
+- Plano de recuperação: Caso algo dê errado tenha backup de tudo e um plano auxiliar.
