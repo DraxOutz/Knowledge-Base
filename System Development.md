@@ -21,5 +21,16 @@ Inclui desde planejamento até manutenção, passando por análise, design, impl
 
 # 📚 Programação 
 
+## Boas práticas de código
+
+- Código limpo: fácil de ler e manter.
+- Nomenclatura clara: variáveis, funções e classes com nomes significativos.
+- DRY (Don’t Repeat Yourself): evitar repetição de código, se você percebe que faz a mesma coisa várias vezes, vale a pena automatizar em funções, métodos ou classes.
+
+Comentários úteis, mas sem excesso.
+
 ## Segurança em programação
-Validação de entradas: nunca confiar nos dados que vêm do usuário, pois podem ser manipulados ou forjados.
+- Validação de entradas: nunca confiar nos dados que vêm do usuário, pois podem ser manipulados ou forjados.
+- Proteção contra vulnerabilidades comuns: SQL Injection, XSS, CSRF.
+- Gerenciamento de senhas e dados sensíveis: hash, criptografia, tokens seguros.
+- Tratamento de erros sem expor informações sensíveis.
