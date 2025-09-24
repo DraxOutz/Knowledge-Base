@@ -14,6 +14,8 @@ Cibersegurança (ou Cybersecurity) é a área da tecnologia responsável por pro
 - Monitoramento de redes 🌐
 - Backups e planos de recuperação 📂
 
+# 🖥️ Proteção de sistemas
+
 # 🔒 Criptografia
 ## 1. Hash
 Não é exatamente “criptografia” porque não dá pra reverter (é unidirecional).
@@ -54,3 +56,22 @@ Além da senha, você precisa de outro fator de autenticação, como:
 - Biometria (digital, rosto) 👆
 
 👉 A ideia é: mesmo que descubram sua senha, ainda precisam do segundo fator.
+
+# 💉 SQL Injection
+
+SQL Injection é uma vulnerabilidade de segurança que acontece quando **dados do usuário são inseridos diretamente em consultas SQL** sem tratamento adequado.  
+Um atacante pode **alterar a consulta**, acessar ou manipular dados que não deveria.
+
+## 📌 Exemplo vulnerável
+
+## Campo sem proteção
+
+SELECT * FROM users 
+WHERE username = 'usuario_digitado' 
+AND password = 'senha_digitada';
+
+## SQL Injector
+
+SELECT * FROM users 
+WHERE username = '' OR '1'='1' 
+AND password = '';
