@@ -18,3 +18,8 @@ Inclui desde planejamento até manutenção, passando por análise, design, impl
 - Sistemas de gestão (financeiro, escolar, hospitalar)
 - Jogos
 - Softwares de automação e scripts
+
+# 📚 Programação 
+
+## Segurança em programação
+> Validação de entradas: nunca confiar nos dados que vêm do usuário.
