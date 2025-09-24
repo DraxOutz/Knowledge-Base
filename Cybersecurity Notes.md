@@ -36,6 +36,9 @@ Ou seja, o atacante explora a confiança humana em vez de quebrar uma senha ou f
 # 🖥️ Proteção de sistemas
 
 # 🔒 Criptografia
+
+Criptografia é a técnica de transformar informações legíveis em códigos, de forma que somente pessoas autorizadas possam ler ou usar esses dados.
+
 ## 1. Hash
 Não é exatamente “criptografia” porque não dá pra reverter (é unidirecional).
 Transforma um dado em uma sequência fixa de caracteres.
