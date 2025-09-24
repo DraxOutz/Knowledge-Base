@@ -86,3 +86,10 @@ AND password = '';
 - 2FA / MFA: adicionar autenticação de segundo fator (app, SMS, biometria). (não é obrigatório, porém recomendado)
 - Complexidade de senha: exigir mínimo de caracteres, números, símbolos e letras maiúsculas/minúsculas. (obrigatório)
 - Bloqueio de tentativas: limitar logins errados e usar captcha para evitar brute force. (obrigatório)
+
+## Educação e boas práticas
+
+- Alertar usuários sobre phishing e compartilhamento de credenciais.
+- Incentivar senhas únicas e atualização periódica.
+- Logs de atividade: monitorar acessos e ações críticas.
+- Princípio do mínimo privilégio: cada usuário só acessa o que precisa.
